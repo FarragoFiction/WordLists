@@ -220,6 +220,7 @@ kidname_last_canon
 
 cherubname_all
     @cherubname_canon
+    @cherubname_discord
 
 //######################################################
 // CHERUB NAMES
@@ -229,6 +230,8 @@ cherubname_canon
     Calliope
     Caliborn
 
+cherubname_discord
+    Wongle
 
 //#############################################################################################
 // ROBOTS
@@ -236,6 +239,7 @@ cherubname_canon
 
 robotname_all
     @robotname_canon
+    @robotname_sim
 
 //######################################################
 // ROBOT NAMES
@@ -244,7 +248,11 @@ robotname_all
 robotname_canon
     Sawtooth
     Squarewave
-
+    
+robotname_sim
+    Authorbot
+    Authorbot Junior
+    Shogunbot
 
 //#############################################################################################
 // ANCESTORS
