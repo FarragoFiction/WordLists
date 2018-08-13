@@ -509,6 +509,7 @@ leprechaunname_inf_sim
 
 denizenname_all
     @denizenname_canon
+    @denizenname_sim
 
 //######################################################
 // DENIZEN NAMES
@@ -523,6 +524,52 @@ denizenname_canon
     Yaldabaoth
     Nix
     Hemera
+    
+denizenname_sim
+    Eriotur
+    Abraxas
+    Succra
+    Watojo
+    Bluhubit
+    Swefrat
+    Helaja
+    Fischapris
+    Red Squiggles
+    Yaldabaoth
+    Y'all'd'vebaoth
+    HairSeven
+    Javascript
+    The Null
+        secretname: Nobrop
+    The Ever-Searching
+            secretname: Paraxalan
+    The Dilletant
+            secretname: Algebron
+    The Wanderer
+            secretname: Doomod
+    Jörmungandr
+    Apollyon
+    Siseneg
+    Borunam
+    The Glitch
+            secretname: Shogun
+    The Researcher
+            secretname: Jadeacher
+    Karmiution
+    The Robot
+            secretname: Authorot
+    The Scout
+            secretname: Abbiejean
+    The Librarian
+            secretname: Aspiratcher
+    The Hollow One
+            secretname: Recurscker
+    Insurorracle
+    The Dreamwaker
+            secretname: Maniomnia
+    Kazerad
+    Shiva
+    Goliath
 
 
 //#############################################################################################
@@ -531,6 +578,7 @@ denizenname_canon
 
 horrorterrorname_all
     @horrorterrorname_canon
+    @horrorterrorname_outergods
 
 //######################################################
 // HORRORTERROR NAMES
@@ -540,6 +588,50 @@ horrorterrorname_canon
     Fluthlu
     Nrub'yiglith
     Oglogoth
+    
+horrorterrorname_outergods
+    Abhoth
+    Aiueb Gnshal
+    Aletheia
+    Azathoth
+    Azhorra-Tha
+    The Blackness from the Stars
+    The Cloud-Thing
+    C'thalpa
+    Cxaxukluth
+    Daoloth
+    Darkness
+    D’endrrah
+    Ghroth
+    The Hydra
+    Ialdagorth
+    Kaajh'Kaalbh
+    Lu-Kthu
+    Mh'ithrha
+    Mlandoth and Mril Thorion
+    Mother of Pus
+    The Nameless Mist
+    Ngyr-Korath
+    Nyarlathotep
+    Nyctelios
+    Ny-Rakath
+    Olkoth
+    Shabbith-Ka
+    Shub-Niggurath
+    Star Mother
+    Suc'Naath
+    Tru'nembra
+    Tulzscha
+    Ubbo-Sathla
+    Uvhash
+    Xa'ligha
+    Xexanoth
+    Ycnàgnnisssz
+    Yhoundeh
+    Yibb-Tstll
+    Yidhra
+    Yog-Sothoth
+    Yomagn'tho
 
 
 //#############################################################################################
@@ -551,6 +643,7 @@ carapacename_all
 
 carapacename_first
     @carapacename_first_canon
+    @carapacename_first_sim
 
 carapacename_first_canon
     @carapacename_first_a_canon
@@ -580,8 +673,38 @@ carapacename_first_canon
 //    @carapacename_first_y_canon
 //    @carapacename_first_z_canon
 
+carapacename_first_sim
+    @carapacename_first_a_sim
+    @carapacename_first_b_sim
+    @carapacename_first_c_sim
+    @carapacename_first_d_sim
+    @carapacename_first_e_sim
+//    @carapacename_first_f_sim
+    @carapacename_first_g_sim
+    @carapacename_first_h_sim
+//    @carapacename_first_i_sim
+    @carapacename_first_j_sim
+    @carapacename_first_k_sim
+//    @carapacename_first_l_sim
+    @carapacename_first_m_sim
+    @carapacename_first_n_sim
+//    @carapacename_first_o_sim
+    @carapacename_first_p_sim
+//    @carapacename_first_q_sim
+    @carapacename_first_r_sim
+    @carapacename_first_s_sim
+//    @carapacename_first_t_sim
+//    @carapacename_first_u_sim
+//    @carapacename_first_v_sim
+    @carapacename_first_w_sim
+//    @carapacename_first_x_sim
+    @carapacename_first_y_sim
+    @carapacename_first_z_sim
+    
+
 carapacename_last
     @carapacename_last_canon
+    @carapacename_last_sim
 
 carapacename_last_canon
 //    @carapacename_last_a_canon
@@ -610,6 +733,34 @@ carapacename_last_canon
 //    @carapacename_last_x_canon
 //    @carapacename_last_y_canon
 //    @carapacename_last_z_canon
+
+carapacename_last_sim
+    @carapacename_last_a_sim
+    @carapacename_last_b_sim
+    @carapacename_last_c_sim
+    @carapacename_last_d_sim
+    @carapacename_last_e_sim
+//    @carapacename_last_f_sim
+//    @carapacename_last_g_sim
+//    @carapacename_last_h_sim
+    @carapacename_last_i_sim
+//    @carapacename_last_j_sim
+    @carapacename_last_k_sim
+//    @carapacename_last_l_sim
+    @carapacename_last_m_sim
+    @carapacename_last_n_sim
+//    @carapacename_last_o_sim
+    @carapacename_last_p_sim
+//    @carapacename_last_q_sim
+    @carapacename_last_r_sim
+    @carapacename_last_s_sim
+//    @carapacename_last_t_sim
+    @carapacename_last_u_sim
+    @carapacename_last_v_sim
+//    @carapacename_last_w_sim
+//    @carapacename_last_x_sim
+//    @carapacename_last_y_sim
+//    @carapacename_last_z_sim
 
 //######################################################
 // CARAPACE FIRST NAMES
@@ -686,6 +837,230 @@ carapacename_first_w_canon
 //carapacename_first_y_canon
 //carapacename_first_z_canon
 
+carapacename_first_a_sim
+    Ace
+    Audacious
+    Asshole
+    Authority
+    Aimless
+    Authoritarian
+    Agitated
+    Amethyst
+    Absurd
+    Abstaining
+carapacename_first_a_sim_crowned
+    Ascended
+    Ascendant
+    Adamant
+
+carapacename_first_b_sim
+    Beetle
+    Butterfly
+    Bug
+carapacename_first_b_sim_crowned
+    Brigand
+
+carapacename_first_c_sim
+    Cordial
+    Courtyard
+    Clubs
+    Curious
+    Cheerful
+    Cheery
+    Chipper
+    Clutzy
+    Chaotic
+carapacename_first_c_sim_crowned
+    Crowned
+    Capering
+    Chaotic
+    Collateral
+    Clever
+    Creative
+    Classy
+    Calamitous
+
+carapacename_first_d_sim
+    Diamonds
+    Draconian
+    Dignified
+    Deep
+    Drunk
+    Dance
+    Delusory
+carapacename_first_d_sim_crowned
+    Dashing
+    Dartabout
+    Derelict
+    Doom
+
+carapacename_first_e_sim
+    Eldritch
+    Eccentric
+    Eclectic
+carapacename_first_e_sim_crowned
+    Efflorant
+
+//carapacename_first_f_sim
+
+carapacename_first_g_sim
+    Gooby
+    Garrulous
+    Gourmet
+    Gourmand
+    Gastronomical
+carapacename_first_g_sim_crowned
+    Gluttonous
+
+carapacename_first_h_sim
+    Hearts
+    Hegemonic
+    Horse
+    Heavy
+    Handsome
+    Hysterical
+    Haunting
+    Honored
+    Holy
+    Happy
+    High
+carapacename_first_h_sim_crowned
+    Herokilling
+    Hateful
+    Hazardous
+    Hallowed
+
+//carapacename_first_i_sim
+
+carapacename_first_j_sim
+    Jazz
+    Jazzed
+    Jazzy
+carapacename_first_j_sim_crowned
+    Jilted
+
+carapacename_first_k_sim
+    Kid
+    Kind
+    Keen
+    Knave
+carapacename_first_k_sim_crowned
+    Knight
+
+//carapacename_first_l_sim
+
+carapacename_first_m_sim
+    Ms.
+    Mirthful
+    Majestic
+    Mrs.
+    Miss
+    Morbid
+    Malicious
+    Medical
+    Meticulous
+    Miles
+    Maverick
+    Mass
+    Mobster
+    Monster
+    Maestro
+    Mafia
+carapacename_first_m_sim_crowned
+    Massacre
+    Malpracticing
+    Mass
+    Master
+
+carapacename_first_n_sim
+    Nervous
+    Naive
+    Nice
+carapacename_first_n_sim_crowned
+    Notorious
+    Neverending
+
+//carapacename_first_o_sim
+
+carapacename_first_p_sim
+    Problem
+    Parchment
+    Pedant
+    Paramount
+    Patriotic
+    Persistent
+    Pickle
+    Persnickety
+    Parcel
+    Perigrine
+    Postal
+    Prospitian
+    Persevering
+    Punctual
+    Persistent
+carapacename_first_p_sim_crowned
+    Paragon
+    Promised
+    Patient
+    Peaceful
+    Punititve
+    Prospitian
+    Purple
+
+//carapacename_first_q_sim
+
+carapacename_first_r_sim
+    Royal
+    Regal
+    Rolling
+carapacename_first_r_sim_crowned
+    Rampaging
+
+carapacename_first_s_sim
+    Spades
+    Septuple
+    Six
+    Skullduggerous
+    Silicon
+    Sparky
+    Saddened
+    Stupid
+    Steven
+    Sally
+carapacename_first_s_sim_crowned
+    Sovereign
+    Seven
+    String
+    Sans
+
+//carapacename_first_t_sim
+//carapacename_first_u_sim
+//carapacename_first_v_sim
+
+carapacename_first_w_sim
+    Wayward
+    Wizardly
+    Warweary
+    Wandering
+carapacename_first_w_sim_crowned
+    Wicked
+
+//carapacename_first_x_sim
+
+carapacename_first_y_sim
+    Yogistic
+    Yard
+    Yelling
+carapacename_first_y_sim_crowned
+
+carapacename_first_z_sim
+    Zipping
+    Zany
+    Zephyr
+carapacename_first_z_sim_crowned
+    Zero
+
+
 //######################################################
 // CARAPACE LAST NAMES
 //######################################################
@@ -756,3 +1131,206 @@ carapacename_last_v_canon
 //carapacename_last_x_canon
 //carapacename_last_y_canon
 //carapacename_last_z_canon
+
+carapacename_last_a_sim
+    Acolyte
+    Alien
+    Advocate
+carapacename_last_a_sim_crowned
+    Atronach
+
+carapacename_last_b_sim
+    Brute
+    Boxcar
+    Bartender
+    Brawler
+    Beefcake
+    Broad
+    Bird
+    Bartender
+    Baker
+    Breakmaker
+    Breadmaker
+    Boi
+carapacename_last_b_sim_crowned
+    Beast
+    Bastard
+    Bard
+    Bloodshed
+    Butcher
+    Boi
+    
+carapacename_last_c_sim
+    Coach
+    Coaster
+    Coder
+    Copycat
+    Citrine
+    Cobalt
+    Crystal
+carapacename_last_c_sim_crowned
+    Casualties
+    Caretaker
+
+carapacename_last_d_sim
+    Deuce
+    Droll
+    Dabbler
+    Demoman
+    Dwarf
+    Dunce
+    Droog
+    Dignitary
+    Diplomat
+    Detective
+    Dwarf
+    Dick
+    Dame
+    Dancer
+    Debutante
+    Doctor
+    Deputy
+    Dentist
+    Dark
+    Doctor
+carapacename_last_d_sim_crowned
+    Destroyer
+    Demigod
+    Demon
+    Demoness
+    Despot
+    Dacnomaniac
+
+carapacename_last_e_sim
+    Edgeworth
+    Egoist
+    Engineer
+    Edge
+    Effect
+    Enthusiast
+    Entomologist
+    Enquirer
+    Entertainer
+    Executant
+    Educator
+    Enchanter
+carapacename_last_e_sim_crowned
+    Effect
+    Eclectica
+    Executioner
+
+//carapacename_last_f_sim
+//carapacename_last_g_sim
+//carapacename_last_h_sim
+
+carapacename_last_i_sim
+    Inspector
+    Innovator
+    Investegator
+    Illuminator
+    Inventress
+    Introvert
+carapacename_last_i_sim_crowned
+    Idol
+    Inversion
+    Incarnation
+    
+//carapacename_last_j_sim
+
+carapacename_last_k_sim
+    Kingpin
+    Killer
+    Kilo
+    Kaiser
+carapacename_last_k_sim_crowned
+    Kriminal
+
+//carapacename_last_l_sim
+
+carapacename_last_m_sim
+    Mistress
+    Mendicate
+    Mailer
+    Maillady
+carapacename_last_m_sim_crowned
+    Marauder
+    Monarch
+
+carapacename_last_n_sim
+    Nutritionist
+    Noodle
+    Nibbler
+    Nourisher
+carapacename_last_n_sim_crowned
+    Newt
+
+//carapacename_last_o_sim
+
+carapacename_last_p_sim
+    Paper
+    Paint
+    Painter
+    Philanthropist
+    Practitioner
+    Philosopher
+    Pundit
+    Preacher
+    Pediatrician
+    Priest
+    Pope
+carapacename_last_p_sim_crowned
+    Primer
+    Prophet
+    Patrician
+
+//carapacename_last_q_sim
+
+carapacename_last_r_sim
+    Regulator
+    Renegade
+    Radical
+    Rifleer
+carapacename_last_r_sim_crowned
+    Rioter
+    
+carapacename_last_s_sim
+    Slick
+    Shanks
+    Shankmaster
+    Snake
+    Sleuth
+    Secretary
+    Steward
+    Singer
+    Songstress
+    Savant
+carapacename_last_s_sim_crowned
+    Slayer
+    Shiv
+    Stabber
+    Sherrif
+    Savior
+    Seraph
+    Seductress
+
+//carapacename_last_t_sim
+
+carapacename_last_u_sim
+    Und
+    Universe
+    Uncovered
+carapacename_last_u_sim_crowned
+    Undertale
+
+carapacename_last_v_sim
+    Vagrant
+    Villein
+    Vassal
+    Villager
+carapacename_last_v_sim_crowned
+    Villain
+
+//carapacename_last_w_sim
+//carapacename_last_x_sim
+//carapacename_last_y_sim
+//carapacename_last_z_sim
