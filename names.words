@@ -187,26 +187,118 @@ kidname_all
     #kidname_first# #kidname_last#
 
 kidname_first
-    @kidname_first_canon
+    @kidname_first_canon_female
+    @kidname_first_canon_male
+    @kidname_first_common_female
+    @kidname_first_common_male
 
 kidname_last
     @kidname_last_canon
+    @kidname_last_common
 
 //######################################################
 // KID FIRST NAMES
 //######################################################
 
-kidname_first_canon
-    John
+kidname_first_canon_female
     Rose
+    Jade
+    Jane
+    Roxy
+    Joey
+    
+kidname_first_canon_male
+    John
     Dave
     Jade
     Jane
     Roxy
-    Dirk
-    Jake
-    Joey
     Jude
+    
+//common human first names are sourced from census lists in the US and UK
+
+kidname_first_common_female
+    Emily
+    Jessica
+    Ashley
+    Jennifer
+    Emma
+    Madison
+    Hannah
+    Amanda
+    Melissa
+    Amy
+    Michelle
+    Lisa
+    Alexis
+    Samantha
+    Sarah
+    Brittany
+    Heather
+    Kimberly
+    Abigail
+    Olivia
+    Angela
+    Amelia
+    Isla
+    Ava
+    Isabella
+    Lily
+    Ella
+    Mia
+    Poppy
+    Sophie
+    Ruby
+    Grace
+    Chloe
+    Evie
+    Lucy
+    Ellie
+    Charlotte
+    Katie
+    Megan
+    Lauren
+    Rebecca
+    Georgia
+    Alex
+
+kidname_first_common_male
+    Jacob
+    Michael
+    Matthew
+    Christopher
+    Jason
+    James
+    Joshua
+    David
+    John
+    Ethan
+    Andrew
+    Nicholas
+    Tyler
+    Daniel
+    Robert
+    Oliver
+    Harry
+    George
+    Jack
+    Noah
+    Charlie
+    Muhammad
+    Thomas
+    Oscar
+    William
+    Alfie
+    Riley
+    Samuel
+    Joseph
+    Benjamin
+    Lewis
+    Callum
+    Jordan
+    Ryan
+    Liam
+    Alex
 
 //######################################################
 // KID LAST NAMES
@@ -220,6 +312,110 @@ kidname_last_canon
     Crocker
     English
     Claire
+    
+//common human surnames are top 100 from 2000 US census
+
+kidname_last_common
+    Smith
+    Johnson
+    Williams
+    Brown
+    Jones
+    Miller
+    Davis
+    Garcia
+    Rodriguez
+    Wilson
+    Martinez
+    Anderson
+    Taylor
+    Thomas
+    Hernandez
+    Moore
+    Martin
+    Jackson
+    Thompson
+    White
+    Lopez
+    Lee
+    Gonzalez
+    Harris
+    Clark
+    Lewis
+    Robinson
+    Walker
+    Perez
+    Hall
+    Young
+    Allen
+    Sanchez
+    Wright
+    King
+    Scott
+    Green
+    Baker
+    Adams
+    Nelson
+    Hill
+    Ramirez
+    Campbell
+    Mitchell
+    Roberts
+    Carter
+    Phillips
+    Evans
+    Turner
+    Torres
+    Parker
+    Collins
+    Edwards
+    Stewart
+    Flores
+    Morris
+    Nguyen
+    Murphy
+    Rivera
+    Cook
+    Rogers
+    Morgan
+    Peterson
+    Cooper
+    Reed
+    Bailey
+    Bell
+    Gomez
+    Kelly
+    Howard
+    Ward
+    Cox
+    Diaz
+    Richardson
+    Wood
+    Watson
+    Brooks
+    Bennett
+    Gray
+    James
+    Reyes
+    Cruz
+    Hughes
+    Price
+    Myers
+    Long
+    Foster
+    Sanders
+    Ross
+    Morales
+    Powell
+    Sullivan
+    Russell
+    Ortiz
+    Jenkins
+    Gutierrez
+    Perry
+    Butler
+    Barnes
+    Fisher
 
 
 //#############################################################################################
