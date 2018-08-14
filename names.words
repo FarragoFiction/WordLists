@@ -5,6 +5,9 @@
 // by KR
 
 
+@markovnames
+
+
 name_all
     @trollname_all
     @kidname_all
@@ -23,15 +26,20 @@ name_all
 
 trollname_all
     #trollname_first# #trollname_last#
+    
+trollname_markov
+    #trollname_first_markov# #trollname_last_markov#
 
 trollname_first
     @trollname_first_canon
     @trollname_first_neta
+    @trollname_first_markov
 
 trollname_last
     @trollname_last_canon
     @trollname_last_neta
-
+    @trollname_last_markov
+    
 //######################################################
 // TROLL FIRST NAMES
 //######################################################
@@ -578,7 +586,8 @@ denizenname_sim
 
 horrorterrorname_all
     @horrorterrorname_canon
-    @horrorterrorname_outergods
+    @horrorterrorname_outergod
+    @horrorterrorname_greatoldone
 
 //######################################################
 // HORRORTERROR NAMES
@@ -589,7 +598,7 @@ horrorterrorname_canon
     Nrub'yiglith
     Oglogoth
     
-horrorterrorname_outergods
+horrorterrorname_outergod
     Abhoth
     Aiueb Gnshal
     Aletheia
@@ -632,6 +641,359 @@ horrorterrorname_outergods
     Yidhra
     Yog-Sothoth
     Yomagn'tho
+    
+horrorterrorname_greatoldone
+    ?epithet: The Great Old One
+    
+    Abholos
+        epithet: Devourer in the Mist
+    Alala
+        epithet: Herald of S'glhuo
+    Ammutseba
+        epithet: Devourer of Stars
+    Amon-Gorloth
+        epithet: Creator of the Nile and Universe's Equilibrium
+    Aphoom-Zhah
+        epithet: The Cold Flame
+    Arwassa
+        epithet: The Silent Shouter on the Hill
+    Atlach-Nacha
+        epithet: The Spinner in Darkness
+    Ayi'ig
+        epithet: The Serpent Goddess
+    Aylith
+        epithet: The Widow in the Woods
+    Baoht Z'uqqa-Mogg
+        epithet: The Bringer of Pestilence
+    Basatan
+        epithet: Master of the Crabs
+    B’gnu-Thun
+        epithet: The Soul-Chilling Ice-God
+    Bokrug
+        epithet: The Doom of Sarnath
+    Bugg-Shash
+        epithet: He Who Comes in the Dark
+    Byatis
+        epithet: The Berkeley Toad
+    Chaugnar Faugn
+        epithet: The Horror from the Hills
+    Coatlicue
+        epithet: Serpent Skirted One
+    Coinchenn
+    Crom Cruach
+        epithet: Master of the Runes
+    Cthaat
+        epithet: The Dark Water God
+    Cthaeghya 
+    Cthugha
+        epithet: The Living Flame
+    Cthulhu
+        epithet: The Call of Cthulhu
+    Cthylla
+        epithet: Secret Daughter of Cthulhu
+    Ctoggha
+        epithet: The Dream-Daemon
+    Cyäegha
+        epithet: The Destroying Eye
+    Cynothoglys
+        epithet: She Whose Hand Embalms
+    Dhumin
+        epithet: The Burrower from the Bluff
+    The Dweller in the Gulf
+        epithet: Eidolon of the Blind
+    Dygra
+        epithet: The Stone-Thing
+    Dythalla
+        epithet: Lord of Lizards
+    Dzéwà
+        epithet: The White God
+    Eihort
+        epithet: God of the Labyrinth
+    Ei'lor
+        epithet: The Star-Seed
+    Etepsed Egnis
+    Ghadamon
+        epithet: A Seed of Azathoth
+    Ghatanothoa
+        epithet: Lord of the Volcano
+    Ghisguth
+        epithet: The Sound of Deep Waters
+    Gi-Hoveg
+        epithet: The Aether Anemone
+    Glaaki
+        epithet: The Inhabitant of the Lake
+    Gleeth
+        epithet: The Blind God of the Moon
+    Gloon
+        epithet: The Corrupter of Flesh
+    Gobogeg
+        epithet: The Twice-Invoked
+    God of the Red Flux
+    Gog-Hoor
+        epithet: Eater of the Insane
+    Golgoroth
+        epithet: God of the Black Stone
+    Golothess
+    The Green God
+        epithet: The Horror Under Warrendown
+    Groth-Golka
+        epithet: The Demon Bird-God
+    Gtuhanai
+        epithet: The Destroyer God of the Aartnna
+    Gurathnaka
+        epithet: The Eater of Dreams
+    Gur'la-ya
+        epithet: The Lurker in the Doom-laden Shadows
+    Gwarloth
+    Gzxtyos
+        epithet: Mate of Othuyeg
+    Han
+        epithet: The Dark One
+    Hastalÿk
+        epithet: The Contagion
+    Hastur
+        epithet: #hastur_epithets#
+    H’chtelegoth
+        epithet: The Great Tentacled God
+    Haiogh-Yai
+        epithet: The Outsider
+    Hnarqu
+        epithet: The Great One
+    Hziulquoigmnzhah
+        epithet: The God of Cykranosh
+    Idh-yaa
+        epithet: Xothic Matriarch
+    Inpesca
+        epithet: The Sea Horror
+    Iod
+        epithet: The Shining Hunter
+    Istasha
+        epithet: Mistress of Darkness
+    Ithaqua
+        epithet: God of the Cold White Silence
+    Janai'ngo
+        epithet: Guardian and the Key of the Watery Gates
+    Juk-Shabb
+        epithet: God of Yekub
+    Kaalut
+        epithet: The Ravenous One
+    Kag'Naru of the Air
+    Kassogtha
+        epithet: The Leviathan of Diseases
+    Kaunuzoth
+        epithet: Cannoosut
+    Khal'kru
+        epithet: All-in-All
+    Klosmiebhyx
+    K'nar'st
+        epithet: Spawn of the Forgotten
+    Krang
+        epithet: The Dead One
+    Kthaw'keth
+        epithet: the Scourge of Yaksh
+    Kurpannga
+        epithet: The Devil-dingo
+    Lam
+        epithet: The Grey
+    Lexur'iga-serr'roth
+        epithet: He Who Devours All in the Dark
+    Lythalia
+        epithet: The Forest-Goddess
+    Mappo no Ryujin
+        epithet: Harbinger of Doom
+    M’basui Gwandu
+        epithet: The River Abomination
+    M'Nagalah
+        epithet: The Devourer
+    Mnomquah
+        epithet: Lord of the Black Lake
+    Mordiggian
+        epithet: Lord of Zul-Bha-Sair
+    Mormo
+        epithet: The Thousand-Faced Moon
+    Mortllgh
+        epithet: Storm of Steel
+    Mynoghra
+        epithet: She-Daemon of the Shadows
+    Nctosa & Nctolhu
+        epithet: The Twin Spawn of Cthulhu
+    Ngirrth’lu
+        epithet: The Stalker in the Snows
+    Northot
+        epithet: The Thing That Should Not Be
+    Nssu-Ghahnb
+        epithet: The Heart of the Ages
+    Nug and Yeb
+        epithet: The Twin Blasphemies
+    Nyaghoggua
+        epithet: The Kraken Within
+    Nycrama
+        epithet: The Zombifying Essence
+    Nyogtha
+        epithet: The Haunter of the Red Abyss
+    Ob'mbu
+        epithet: The Shatterer
+    Oorn
+        epithet: Mnomquah's Mate
+    Othuum
+        epithet: The Oceanic Horror
+    Othuyeg
+        epithet: The Doom-Walker
+    Perse
+    Pharol
+        epithet: Pharol the Black
+    Psuchawrl
+        epithet: The Elder One
+    Ptar-Axtlan
+        epithet: The Leopard That Stalks the Night
+    Quachil Uttaus
+        epithet: Treader of the Dust
+    Quyagen
+        epithet: The Eye of Z'ylsm
+    Q'yth-az
+        epithet: The Crystalloid Intellect
+    Raandaii-B'nk
+    Ragnalla
+        epithet: The Seeker in the Skies
+    Raphanasuan
+        epithet: The One from the Sun Race
+    Rhagorthua
+        epithet: Father of All Winds
+    Rhan-Tegoth
+        epithet: He of the Ivory Throne
+    Rhogog
+        epithet: The Bearer of the Cup of the Blood of the Ancients
+    Rh'Thulla of the Wind
+    Rlim Shaikorth
+        epithet: The White Worm
+    Rokon
+    Saaitii
+        epithet: The Hog
+    Scathach
+    Sedmelluq
+        epithet: The Great Manipulator
+    Sfatlicllp
+        epithet: The Fallen Wisdom
+    Shaklatal
+        epithet: The Eye of Wicked Sight
+    Shathak
+        epithet: Mistress of the Abyssal Slime
+    Shaurash-Ho
+    Sheb-Teth
+        epithet: The Devourer of Souls
+    Shista
+        epithet: The God of Fidelity
+    Shlithneth
+    Sho-Gath
+        epithet: The God in the Box
+    Shterot
+        epithet: The Tenebrous One
+    Shudde M'ell
+        epithet: The Burrower Beneath
+    Shuy-Nihl
+        epithet: The Devourer in the Earth
+    Sthanee
+        epithet: The Lost One
+    S'tya-Yg'Nalle
+        epithet: The Whiteness
+    Summanus
+        epithet: The Terror that Walketh in Darkness
+    Swarog
+    Thanaroa
+        epithet: The Shining One
+    Tharapithia
+        epithet: The Shadow in the Crimson Light
+    Thasaidon
+        epithet: The Master of the Endless Void
+    Thog
+        epithet: The Demon-God of Xuthal
+    Toth
+    Th'rygh
+        epithet: The God-Beast
+    Tsathoggua
+        epithet: The Sleeper of N'kai
+    Tulushuggua
+        epithet: The Watery Dweller Beneath
+    Turua
+        epithet: Father of the Swamps
+    Uitzilcapac
+        epithet: The Lord of Pain
+    Ut'Ulls-Hr'Her
+        epithet: The Black Glory of Creation
+    Vhuzompha
+        epithet: Mother and Father to All Marine Life
+    Vibur
+        epithet: The Thing from Beyond
+    Vile-Oct
+    Volgna-Gath
+        epithet: the Keeper of Secrets
+    Voltiyig
+        epithet: Yig's Terrifying Son
+    Vthyarilops
+        epithet: The Starfish God
+    Vulthoom
+        epithet: 
+    The Worm that Gnaws in the Night
+        epithet: The Doom of Shaggai
+    Xalafu
+        epithet: The Dread One
+    Xcthol
+        epithet: The Goat God
+    Xinlurgash
+        epithet: The Ever-Consuming
+    Xirdneth
+        epithet: The Lord of Unreality
+    Xitalu
+        epithet: The Being of Higher Dimension
+    Xotli
+        epithet: The Black Kraken of Atlantis
+    Xoxiigghua
+    Yegg-Ha
+        epithet: The Faceless One
+    Y'golonac
+        epithet: The Defiler
+    Yhagni
+    Yhashtur
+        epithet: The Worm-God of the Lords of Thule
+    Yig
+        epithet: Father of Serpents
+    Y'lla
+        epithet: Master of the Seas
+    'Ymnar
+        epithet: The Dark Stalker
+    Yog-Sapha
+        epithet: The Lord of the Things Which Dwell Beneath the Surface
+    Yorith
+        epithet: The Oldest Dreamer
+    Ysbaddaden
+        epithet: The Chief of the Giants
+    Ythogtha
+        epithet: The Thing in the Pit
+    Yug-Siturath
+        epithet: The All-Consuming Fog
+    Zathog
+        epithet: The Black Lord of Whirling Vortices
+    Zhar and Lloigor
+        epithet: The Twin Obscenities
+    Zindarak
+        epithet: The Fiery Messenger
+    Zoth-Ommog
+        epithet: The Dweller in the Depths
+    Zstylzhemghi
+        epithet: Matriarch of Swarms
+    Zushakon
+        epithet: Old Night
+    Z'toggua
+    Zvilpogghua
+        epithet: The Feaster from the Stars
+
+hastur_epithets
+    The King in Yellow: 1.0
+    He Who is Not to be Named: 2.0
+    The Unspeakable: 1.5
+    Lord of Interstellar Spaces: 1.0
+    The Peacock King: 0.75
+    Zukala-Koth: 0.2
 
 
 //#############################################################################################
