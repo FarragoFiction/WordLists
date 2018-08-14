@@ -730,6 +730,8 @@ denizenname_canon
     Hemera
     
 denizenname_sim
+    ?secretname:?MAIN?
+    
     Eriotur
     Abraxas
     Succra
@@ -746,31 +748,31 @@ denizenname_sim
     The Null
         secretname: Nobrop
     The Ever-Searching
-            secretname: Paraxalan
+        secretname: Paraxalan
     The Dilletant
-            secretname: Algebron
+        secretname: Algebron
     The Wanderer
-            secretname: Doomod
+        secretname: Doomod
     Jörmungandr
     Apollyon
     Siseneg
     Borunam
     The Glitch
-            secretname: Shogun
+        secretname: Shogun
     The Researcher
-            secretname: Jadeacher
+        secretname: Jadeacher
     Karmiution
     The Robot
-            secretname: Authorot
+        secretname: Authorot
     The Scout
-            secretname: Abbiejean
+        secretname: Abbiejean
     The Librarian
-            secretname: Aspiratcher
+        secretname: Aspiratcher
     The Hollow One
-            secretname: Recurscker
+        secretname: Recurscker
     Insurorracle
     The Dreamwaker
-            secretname: Maniomnia
+        secretname: Maniomnia
     Kazerad
     Shiva
     Goliath
