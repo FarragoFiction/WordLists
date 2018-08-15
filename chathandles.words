@@ -8,11 +8,14 @@ TextEngine Word List
 chathandle_sim
     #chathandle_sim_first##chathandle_sim_last#
 
+//interests are listed twice to simulate rate of occurence within the sim
 chathandle_sim_first
     @classchat_all
     @interestchat_by_interest
+    @interestchat_by_interest
 chathandle_sim_last
     @aspecthandle_all
+    @interesthandle_by_interest
     @interesthandle_by_interest
 
 
