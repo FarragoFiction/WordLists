@@ -111,8 +111,11 @@ chathandle_seriousbusiness
 //#############################################################################################
 
 classchat_all
+//    @classchat_bane
     @classchat_bard
+//    @classchat_dame
     @classchat_grace
+//    @classchat_guard
     @classchat_guide
     @classchat_heir
     @classchat_knight
@@ -130,8 +133,17 @@ classchat_all
     @classchat_smith
     @classchat_sylph
     @classchat_thief
+//    @classchat_ward
     @classchat_waste
     @classchat_witch
+//    @classchat_wright
+
+//classchat_bane
+//    blight
+//    bugbear
+//    bruised
+//    breakdown
+//    bilious
 
 classchat_bard
     bat
@@ -142,6 +154,13 @@ classchat_bard
     broken
     bizarre
     barking
+    
+//classchat_dame
+//    doll
+//    duchess
+//    dominating
+//    dainty
+//    dignified
 
 classchat_grace
     graceful
@@ -151,6 +170,13 @@ classchat_grace
     greeting
     gloved
     gone
+
+//classchat_guard
+//    guarded
+//    girded
+//    gilt
+//    garrison
+//    gallant
 
 classchat_guide
     guiding
@@ -311,6 +337,13 @@ classchat_thief
     tried
     torrented
 
+//classchat_ward
+//    watched
+//    welcome
+//    withheld
+//    warranted
+//    willful
+
 classchat_waste
     wasteful
     worrying
@@ -327,6 +360,13 @@ classchat_witch
     worldly
     weighty
 
+//classchat_wright
+//    working
+//    witty
+//    wry
+//    worthy
+//    willful
+
 
 //#############################################################################################
 // ASPECT
@@ -337,13 +377,24 @@ aspecthandle_all
     @aspecthandle_breath
     @aspecthandle_doom
     @aspecthandle_dream
+//    @aspecthandle_fate
+//    @aspecthandle_flow
     @aspecthandle_heart
     @aspecthandle_hope
+//    @aspecthandle_law
     @aspecthandle_life
     @aspecthandle_light
+//    @aspecthandle_might
     @aspecthandle_mind
+//    @aspecthandle_mist
     @aspecthandle_rage
+//    @aspecthandle_rain
+//    @aspecthandle_rhyme
+//    @aspecthandle_sand
+//    @aspecthandle_sky
+//    @aspecthandle_snow
     @aspecthandle_space
+//    @aspecthandle_stars
     @aspecthandle_time
     @aspecthandle_void
 
@@ -387,6 +438,9 @@ aspecthandle_dream
     Disaster
     Disorder
 
+//aspecthandle_fate
+//aspecthandle_flow
+
 aspecthandle_heart
     Heart
     Hacker
@@ -403,6 +457,8 @@ aspecthandle_hope
     Haberdasher
     Hooligan
 
+//aspecthandle_law
+
 aspecthandle_life
     Leader
     Lecturer
@@ -418,6 +474,8 @@ aspecthandle_light
     Lawyer
     Lifeguard
 
+//aspecthandle_might
+
 aspecthandle_mind
     Man
     Machine
@@ -427,12 +485,20 @@ aspecthandle_mind
     Mediator
     Messenger
 
+//aspecthandle_mist
+
 aspecthandle_rage
     Raconteur
     Reveler
     Reader
     Reporter
     Racketeer
+    
+//aspecthandle_rain
+//aspecthandle_rhyme
+//aspecthandle_sand
+//aspecthandle_sky
+//aspecthandle_snow
 
 aspecthandle_space
     Stuck
@@ -442,6 +508,8 @@ aspecthandle_space
     Scientist
     Synergy
     Spaceman
+
+//aspecthandle_stars
 
 aspecthandle_time
     Teetotaler
