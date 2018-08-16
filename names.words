@@ -10,14 +10,78 @@
 
 name_all
     @trollname_all
+    @wigglername_all
     @kidname_all
     @cherubname_all
     @robotname_all
     @ancestortitle_all
     @denizenname_all
     @leprechaunname_all
-    @carapacename_all
     @horrorterrorname_all
+    @carapacename_all
+
+    
+//###################################################
+// DOLL NAMES
+//###################################################
+
+dollname_kid
+    @kidname_all
+dollname_troll
+    @trollname_all
+dollname_cherub
+    @cherubname_all
+dollname_baby
+    @kidname_all
+dollname_grub
+    @wigglername_all
+dollname_consort
+
+dollname_denizen
+
+dollname_dad
+    #kidname_male# #kidname_last#
+dollname_dollname_mom
+    #kidname_female# #kidname_last#
+dollname_bro
+    #kidname_male# #kidname_last#
+dollname_hiveswap
+    @trollname_all
+dollname_pigeon
+
+dollname_satyr
+
+dollname_queen
+
+dollname_monsterpocket
+
+dollname_superbsuck
+
+dollname_virus
+    @horrorterrorname_all
+dollname_dog
+
+dollname_talksprite
+    @kidname_all
+dollname_easteregg
+
+dollname_hatchedchick
+
+dollname_broom
+
+dollname_cat
+
+dollname_blobmonster
+    @horrorterrorname_all
+dollname_ancestor
+    @ancestortitle_all
+dollname_openbound
+    @trollname_all
+dollname_fek
+
+dollname_flower
+
+dollname_fruit
 
 
 //#############################################################################################
@@ -178,6 +242,406 @@ trollname_last_neta
     Baruch
     Marston
 
+//#############################################################################################
+// WIGGLERS
+//#############################################################################################
+
+//credit to duckking for a large chunk of the titles and last names!
+
+wigglername_all
+    #wigglername_title# #wigglername_first#
+    #wigglername_title# #wigglername_first##wigglername_end#
+    #wigglername_title# #wigglername_first# #wigglername_last#
+    #wigglername_title# #wigglername_last#
+    #wigglername_title##wigglername_end#
+    #wigglername_first# #wigglername_first#
+    #wigglername_first# #wigglername_last#
+    #wigglername_first# #wigglername_first# #wigglername_last#
+    #wigglername_first# #wigglername_last##wigglername_end#
+
+//######################################################
+// WIGGLER TITLES
+//######################################################
+
+wigglername_title
+    Player
+    Duke
+    Earl
+    Duchess
+    Marquess
+    Marchioness
+    Lord
+    Viscount
+    Viscountess
+    Baroness
+    Chief
+    Chieftain
+    Saint
+    Bishop
+    Archbishop
+    Cardinal
+    Chorbishop
+    Dean
+    Vice
+    Pope
+    Supreme
+    Assistant
+    Researcher
+    Vice President
+    Archdeacon
+    Sensei
+    Archpriest
+    Abbot
+    Abbess
+    Monk
+    Novice
+    Sister
+    Brother
+    Father
+    Mother
+    Elder
+    Judge
+    Executioner
+    Patriarch
+    Reverend
+    Pastor
+    Rabbi
+    Cleric
+    Master
+    King
+    Queen
+    Druid
+    Knight
+    Seer
+    Bard
+    Heir
+    Maid
+    Rogue
+    Thief
+    Page
+    Sylph
+    Witch
+    Prince
+    Princess
+    Mage
+    Monsignor
+    TV's
+    Sherrif
+    Professor
+    Vice-Chancellor
+
+//######################################################
+// WIGGLER FIRST NAMES
+//######################################################
+
+wigglername_first
+    Luigi
+    Teddy
+    Morgan
+    Gordon
+    Tom
+    Crow
+    George
+    Jim
+    Stan
+    Isaac
+    Nikalo
+    Thomas
+    Santa
+    Milton
+    Peter
+    Micheal
+    Freddy
+    Hugo
+    Steven
+    Peewee
+    Stevie
+    James
+    Harvey
+    Oswald
+    Selina
+    Obnoxio
+    Irving
+    Zygmunt
+    Waluigi
+    Wario
+    Tony
+    Ivo
+    Albert
+    Hannibal
+    Mike
+    Scooby
+    Scoobert
+    Barney
+    Sauce
+    Juice
+    Juicy
+    Chuck
+    Jerry
+    Capybara
+    Bibbles
+    Jiggy
+    Jibbly
+    Wiggly
+    Wiggler
+    Grubby
+    Zoosmell
+    Farmstink
+    Bubbles
+    Nic
+    Lil
+    Liv
+    Charles
+    Meowsers
+    Casey
+    Candy
+    Sterling
+    Fred
+    Kid
+    Meowgon
+    Fluffy
+    Meredith
+    Bill
+    Ted
+    Ash
+    Frank
+    Flan
+    Quill
+    Squeezykins
+    Spot
+    Squeakems
+    Stephen
+    Edward
+    Hissy
+    Scaley
+    Glubglub
+    Mutie
+    Donnie
+    Clattersworth
+    Bonebone
+    Nibbles
+    Fossilbee
+    Skulligan
+    Jack
+    Nigel
+    Dazzle
+    Fancy
+    Pounce
+    Cheddar
+    Bob
+    Winston
+    Lobster
+    Snookems
+    Squeezy Face
+    Cutie
+    Sugar
+    Sweetie
+    Squishy
+    Katana
+    Sakura
+    Snuffles
+    Sniffles
+    John
+    Rose
+    Dave
+    Jade
+    Brock
+    Dirk
+    Roxy
+    Jane
+    Jake
+    Sneezy
+    Bubbly
+    Licky
+    Fido
+    Grub
+    Elizabeth
+    Malory
+    Elenora
+    Vic
+    Jason
+    Christmas
+    Hershey
+    Mario
+    Judy
+
+//######################################################
+// WIGGLER LAST NAMES
+//######################################################
+
+wigglername_last
+    Lickface
+    McProblems
+    Pooper
+    von Wigglesmith
+    von Horn
+    Grub
+    Dumbface
+    Buttlass
+    Pooplord
+    Cage
+    Sebastion
+    Taylor
+    Dutton
+    von Wigglebottom
+    Kazoo
+    von Salamancer
+    Savage
+    Rock
+    Spangler
+    Fluffybutton
+    Wigglesona
+    S Preston
+    Logan
+    Juice
+    Clowder
+    Squeezykins
+    Boi
+    Oldington the Third
+    Malone
+    Ribs
+    Noir
+    Sandwich
+    Sauce
+    Lobster
+    Butter
+    Pie
+    Poofykins
+    Snugglepuff
+    Diabetes
+    Face
+    Puffers
+    Dorkbutt
+    Butt
+    Katanta
+    Sakura
+    Legs
+    Poppenfresh
+    Stubblies
+    Licker
+    Kilobyte
+    Samson
+    Terabyte
+    Gigabyte
+    Megabyte
+    Puker
+    Edington
+    Rockerfeller
+    Archer
+    Addington
+    Ainsworth
+    Gladestone
+    Valentine
+    Heart
+    Love
+    Sniffles
+    Herman
+    Powers
+    Bond
+    King
+    Karl
+    Forbush
+    Gorazdowski
+    Costanza
+    Sinatra
+    Stark
+    Parker
+    Thornberry
+    Robotnik
+    Wily
+    Frankenstein
+    Machino
+    Lecter
+    Wazowski
+    P. Sullivan
+    Doo
+    Doobert
+    Rubble
+    Ross
+    Churchill
+    Washington
+    Adams
+    Jefferson
+    Madison
+    Monroe
+    Jackson
+    Van Buren
+    Harrison
+    Knox
+    Polk
+    Fillmore
+    T Robot
+    Servo
+    Wonder
+    Pierce
+    Buchanan
+    Grant
+    Hayes
+    Garfield
+    Arthur
+    Cleveland
+    Ketchum
+    Williams
+    Quill
+    Weave
+    Myers
+    Voorhees
+    Kramer
+    Seinfeld
+    Dent
+    Nigma
+    Cobblepot
+    Strange
+    Universe
+    Darko
+    McKinley
+    Roosevelt
+    Taft
+    Harding
+    Wilson
+    Coolidge
+    Hoover
+    Truman
+    Eisenhower
+    Kennedy
+    Johnson
+    Carter
+    Arbuckle
+    Rodgers
+    T
+    G
+    Henson
+    Newton
+    Tesla
+    Edison
+    Claus
+    Hershey
+    Freeman
+    Nietzsche
+
+//######################################################
+// WIGGLER ENDINGS
+//######################################################
+
+wigglername_end
+    , the Third
+    , esq
+    , MD
+    , Ph.D.
+    , Junior
+    , Senior
+    , CPA
+     the Shippest
+     III
+     IV
+     V
+     VI
+     VII
+     VIII
+     IX
+     X
+    -chan
+
 
 //#############################################################################################
 // KIDS
@@ -191,7 +655,14 @@ kidname_first
     @kidname_first_canon_male
     @kidname_first_common_female
     @kidname_first_common_male
-
+    
+kidname_female
+    @kidname_first_canon_female
+    @kidname_first_common_female
+kidname_male
+    @kidname_first_canon_male
+    @kidname_first_common_male
+    
 kidname_last
     @kidname_last_canon
     @kidname_last_common
