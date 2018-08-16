@@ -70,7 +70,7 @@ dollname_easteregg
 dollname_hatchedchick
     @wigglername_all
 dollname_broom
-
+    @brooms
 dollname_cat
     @wigglername_all
 dollname_blobmonster
@@ -2397,19 +2397,247 @@ carapacename_last_v_sim_crowned
 // SATYRS
 //#############################################################################################
 
+//Ancient Greek names, five letters long. Setup like this to leave room for other types of names or specific named characters.
 satyrname_all
-    #trollname_first# #trollname_last#
-
-satyrname_first
-    @satyrname_first_markov
-    @satyrname_first_specific
-
-satyrname_last
-    @satyrname_last_markov
-    @satyrname_last_specific
+    @satyrname_greek
     
 //######################################################
-// TROLL FIRST NAMES
+// SATYR NAMES
 //######################################################
 
-trollname_first_canon
+satyrname_greek
+    Abgar
+    Actor
+    Adeia
+    Aedon
+    Aegle
+    Aegon
+    Aeson
+    Aesop
+    Aetes
+    Agape
+    Agave
+    Aketa
+    Aktis
+    Aktor
+    Alcon
+    Altes
+    Anais
+    Ancus
+    Arcas
+    Ardys
+    Arete
+    Arges
+    Argos
+    Arion
+    Asius
+    Aster
+    Athis
+    Atlas
+    Attis
+    Audax
+    Azeus
+    Bacis
+    Belos
+    Biton
+    Borus
+    Boter
+    Bulis
+    Chloë
+    Cilix
+    Cilla
+    Circe
+    Cleon
+    Cobon
+    Coeus
+    Conon
+    Crios
+    Crisa
+    Cylon
+    Damia
+    Damon
+    Danaë
+    Dares
+    Davos
+    Demas
+    Dione
+    Dirce
+    Dolon
+    Doris
+    Doros
+    Dryas
+    Duris
+    Dymas
+    Egina
+    Eleon
+    Elpir
+    Enops
+    Erato
+    Eurus
+    Evios
+    Gelon
+    Glyke
+    Gorgo
+    Gyges
+    Gyras
+    Hades
+    Halie
+    Helle
+    Hiero
+    Hylas
+    Hymen
+    Iaera
+    Iamus
+    Iasos
+    Iasus
+    Idaca
+    Idaea
+    Iphis
+    Irene
+    Ision
+    Kapys
+    Kasos
+    Kebes
+    Khlöe
+    Kimon
+    Kleio
+    Konon
+    Korax
+    Kotys
+    Kreon
+    Kynna
+    Kyros
+    Labda
+    Lagos
+    Laios
+    Lamia
+    Lampo
+    Lamus
+    Lasos
+    Leuce
+    Linus
+    Lukos
+    Lycus
+    Lydus
+    Lykon
+    Lysis
+    Macar
+    Maeon
+    Maera
+    Males
+    Maron
+    Medea
+    Medon
+    Medus
+    Meges
+    Melas
+    Meles
+    Metis
+    Meton
+    Midas
+    Mikon
+    Milto
+    Minas
+    Minos
+    Morys
+    Mydon
+    Myrto
+    Nicon
+    Nilus
+    Niobe
+    Nisos
+    Notus
+    Nyssa
+    Ochos
+    Odius
+    Onias
+    Orcus
+    Orges
+    Orion
+    Orius
+    Paios
+    Pales
+    Paris
+    Perse
+    Phaia
+    Phylo
+    Pluto
+    Podes
+    Poeas
+    Poros
+    Priam
+    Prone
+    Proto
+    Pylas
+    Pylia
+    Pyris
+    Raisa
+    Rhene
+    Rhoda
+    Rhode
+    Ribes
+    Rizon
+    Sabas
+    Sinis
+    Sinon
+    Socus
+    Speio
+    Talos
+    Telys
+    Tenes
+    Teres
+    Teuta
+    Thais
+    Theas
+    Thebe
+    Theos
+    Thero
+    Thoas
+    Thoön
+    Thyia
+    Timon
+    Tuche
+    Tyche
+    Zetes
+
+//#############################################################################################
+// BROOMS
+//#############################################################################################
+
+brooms
+    Air Wave Gold
+    Australian Flyabout
+    Bluebottle
+    Cleansweep Eleven
+    Cleansweep Five
+    Cleansweep One
+    Cleansweep Seven
+    Cleansweep Six
+    Cleansweep Three
+    Cleansweep Two
+    Comet 140
+    Comet 180
+    Comet 260
+    Comet 290
+    Firebolt
+    Firebolt Supreme
+    Moontrimmer
+    Nimbus 1000
+    Nimbus 1001
+    Nimbus 1500
+    Nimbus 1700
+    Nimbus 2000
+    Nimbus 2001
+    Oakshaft 79
+    Shooting Star
+    Siberian Arrow
+    Silver Arrow
+    Starsweeper XXI
+    Swiftstick
+    Thunderbolt VII
+    Tinderblast
+    Transylvanian Barb
+    Turbo XXX
+    Twigger 90
+    Varápidos
+    Yajirushi
