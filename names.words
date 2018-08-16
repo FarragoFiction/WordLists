@@ -1811,13 +1811,13 @@ carapacename_last_sim
 //    @carapacename_last_z_sim
 
 queenname_first
-    carapacename_first_b_canon
-    carapacename_first_b_sim
-    carapacename_first_w_canon
-    carapacename_first_w_sim
+    @carapacename_first_b_canon
+    @carapacename_first_b_sim
+    @carapacename_first_w_canon
+    @carapacename_first_w_sim
 queenname_last
-    carapacename_last_q_canon
-    carapacename_last_q_sim
+    @carapacename_last_q_canon
+    @carapacename_last_q_sim
 
 //######################################################
 // CARAPACE FIRST NAMES
