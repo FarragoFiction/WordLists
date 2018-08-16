@@ -18,7 +18,9 @@ name_all
     @denizenname_all
     @leprechaunname_all
     @horrorterrorname_all
+    @suckname_all
     @carapacename_all
+    @satyrname_all
 
     
 //###################################################
@@ -36,9 +38,9 @@ dollname_baby
 dollname_grub
     @wigglername_all
 dollname_consort
-
+    @wigglername_all
 dollname_denizen
-
+    @denizenname_all
 dollname_dad
     #kidname_male# #kidname_last#
 dollname_dollname_mom
@@ -48,29 +50,29 @@ dollname_bro
 dollname_hiveswap
     @trollname_all
 dollname_pigeon
-
+    @wigglername_all
 dollname_satyr
-
+    @satyrname_all
 dollname_queen
-
+    #queenname_first# #queenname_last#
 dollname_monsterpocket
-
+    #fakemon_markov#
 dollname_superbsuck
-
+    @suckname_all
 dollname_virus
     @horrorterrorname_all
 dollname_dog
-
+    @wigglername_all
 dollname_talksprite
     @kidname_all
 dollname_easteregg
-
+    egg
 dollname_hatchedchick
-
+    @wigglername_all
 dollname_broom
 
 dollname_cat
-
+    @wigglername_all
 dollname_blobmonster
     @horrorterrorname_all
 dollname_ancestor
@@ -78,7 +80,7 @@ dollname_ancestor
 dollname_openbound
     @trollname_all
 dollname_fek
-
+    fek
 dollname_flower
 
 dollname_fruit
@@ -1663,7 +1665,22 @@ hastur_epithets
     Lord of Interstellar Spaces: 1.0
     The Peacock King: 0.75
     Zukala-Koth: 0.2
+    
+    
+//#############################################################################################
+// SUPERBSUCK
+//#############################################################################################
 
+//gonna mix some regular human names into this because I think it'll be funny that way
+
+suckname_all
+    #suckname_first# #wigglername_last#
+    
+suckname_first
+    @wigglername_first
+    @wigglername_first
+    @wigglername_first
+    @kidname_first
 
 //#############################################################################################
 // CARAPACIANS
@@ -1792,6 +1809,15 @@ carapacename_last_sim
 //    @carapacename_last_x_sim
 //    @carapacename_last_y_sim
 //    @carapacename_last_z_sim
+
+queenname_first
+    carapacename_first_b_canon
+    carapacename_first_b_sim
+    carapacename_first_w_canon
+    carapacename_first_w_sim
+queenname_last
+    carapacename_last_q_canon
+    carapacename_last_q_sim
 
 //######################################################
 // CARAPACE FIRST NAMES
@@ -2365,3 +2391,25 @@ carapacename_last_v_sim_crowned
 //carapacename_last_x_sim
 //carapacename_last_y_sim
 //carapacename_last_z_sim
+
+
+//#############################################################################################
+// SATYRS
+//#############################################################################################
+
+satyrname_all
+    #trollname_first# #trollname_last#
+
+satyrname_first
+    @satyrname_first_markov
+    @satyrname_first_specific
+
+satyrname_last
+    @satyrname_last_markov
+    @satyrname_last_specific
+    
+//######################################################
+// TROLL FIRST NAMES
+//######################################################
+
+trollname_first_canon
