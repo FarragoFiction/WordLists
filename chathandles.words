@@ -5,15 +5,15 @@ TextEngine Word List
 
 
 
-chathandle_sim
-    #chathandle_sim_first##chathandle_sim_last#
+chathandle_classpect
+    #chathandle_classpect_first##chathandle_classpect_last#
 
 //interests are listed twice to simulate rate of occurence within the sim
-chathandle_sim_first
+chathandle_classpect_first
     @classchat_all
     @interestchat_by_interest
     @interestchat_by_interest
-chathandle_sim_last
+chathandle_classpect_last
     @aspecthandle_all
     @interesthandle_by_interest
     @interesthandle_by_interest
@@ -111,11 +111,11 @@ chathandle_seriousbusiness
 //#############################################################################################
 
 classchat_all
-//    @classchat_bane
+    @classchat_bane
     @classchat_bard
-//    @classchat_dame
+    @classchat_dame
     @classchat_grace
-//    @classchat_guard
+    @classchat_guard
     @classchat_guide
     @classchat_heir
     @classchat_knight
@@ -133,17 +133,17 @@ classchat_all
     @classchat_smith
     @classchat_sylph
     @classchat_thief
-//    @classchat_ward
+    @classchat_ward
     @classchat_waste
     @classchat_witch
-//    @classchat_wright
+    @classchat_wright
 
-//classchat_bane
-//    blight
-//    bugbear
-//    bruised
-//    breakdown
-//    bilious
+classchat_bane
+    blight
+    bugbear
+    bruised
+    breakdown
+    bilious
 
 classchat_bard
     bat
@@ -155,12 +155,12 @@ classchat_bard
     bizarre
     barking
     
-//classchat_dame
-//    doll
-//    duchess
-//    dominating
-//    dainty
-//    dignified
+classchat_dame
+    doll
+    duchess
+    dominating
+    dainty
+    dignified
 
 classchat_grace
     graceful
@@ -171,12 +171,12 @@ classchat_grace
     gloved
     gone
 
-//classchat_guard
-//    guarded
-//    girded
-//    gilt
-//    garrison
-//    gallant
+classchat_guard
+    guarded
+    girded
+    gilt
+    garrison
+    gallant
 
 classchat_guide
     guiding
@@ -337,12 +337,12 @@ classchat_thief
     tried
     torrented
 
-//classchat_ward
-//    watched
-//    welcome
-//    withheld
-//    warranted
-//    willful
+classchat_ward
+    watched
+    welcome
+    withheld
+    warranted
+    willful
 
 classchat_waste
     wasteful
@@ -360,12 +360,12 @@ classchat_witch
     worldly
     weighty
 
-//classchat_wright
-//    working
-//    witty
-//    wry
-//    worthy
-//    willful
+classchat_wright
+    working
+    witty
+    wry
+    worthy
+    willful
 
 
 //#############################################################################################
@@ -377,24 +377,24 @@ aspecthandle_all
     @aspecthandle_breath
     @aspecthandle_doom
     @aspecthandle_dream
-//    @aspecthandle_fate
-//    @aspecthandle_flow
+    @aspecthandle_fate
+    @aspecthandle_flow
     @aspecthandle_heart
     @aspecthandle_hope
-//    @aspecthandle_law
+    @aspecthandle_law
     @aspecthandle_life
     @aspecthandle_light
-//    @aspecthandle_might
+    @aspecthandle_might
     @aspecthandle_mind
-//    @aspecthandle_mist
+    @aspecthandle_mist
     @aspecthandle_rage
-//    @aspecthandle_rain
-//    @aspecthandle_rhyme
-//    @aspecthandle_sand
-//    @aspecthandle_sky
-//    @aspecthandle_snow
+    @aspecthandle_rain
+    @aspecthandle_rhyme
+    @aspecthandle_sand
+    @aspecthandle_sky
+    @aspecthandle_snow
     @aspecthandle_space
-//    @aspecthandle_stars
+    @aspecthandle_stars
     @aspecthandle_time
     @aspecthandle_void
 
@@ -438,9 +438,23 @@ aspecthandle_dream
     Disaster
     Disorder
 
-//aspecthandle_fate
-//aspecthandle_flow
-
+aspecthandle_fate
+    Fated
+    Follower
+    Faithful
+    Fortuitous
+    Favored
+    Felicitous
+    
+aspecthandle_flow
+    Fire
+    Flowing
+    Flame
+    Flaming
+    Flourishing
+    Floating
+    Fanciful
+    
 aspecthandle_heart
     Heart
     Hacker
@@ -457,7 +471,15 @@ aspecthandle_hope
     Haberdasher
     Hooligan
 
-//aspecthandle_law
+aspecthandle_law
+    Legal
+    Lawful
+    Lawless
+    Lionized
+    Latin
+    Leader
+    Lock
+    Locked
 
 aspecthandle_life
     Leader
@@ -474,7 +496,13 @@ aspecthandle_light
     Lawyer
     Lifeguard
 
-//aspecthandle_might
+aspecthandle_might
+    Mighty
+    Master
+    Martial
+    Marine
+    Manic
+    Maniac
 
 aspecthandle_mind
     Man
@@ -485,8 +513,14 @@ aspecthandle_mind
     Mediator
     Messenger
 
-//aspecthandle_mist
-
+aspecthandle_mist
+    Multiple
+    Mist
+    Masterless
+    Makeshift
+    Markovian
+    Murky
+    
 aspecthandle_rage
     Raconteur
     Reveler
@@ -494,12 +528,43 @@ aspecthandle_rage
     Reporter
     Racketeer
     
-//aspecthandle_rain
-//aspecthandle_rhyme
-//aspecthandle_sand
-//aspecthandle_sky
-//aspecthandle_snow
+aspecthandle_rain
+    Rainbow
+    Random
+    Rattled
+    Radiation
+    Relatable
+    
+aspecthandle_rhyme
+    Rakish
+    Rime
+    Rarified
+    Relaxed
+    Radical
 
+aspecthandle_sand
+    Salty
+    Sarcastic
+    Sly
+    Shredder
+    Shifty
+    Stealthy
+    
+aspecthandle_sky
+    Snubbed
+    Sorrowful
+    Squandered
+    Stoic
+    Suffocating
+    
+aspecthandle_snow
+    Shimmer
+    Silent
+    Still
+    Slow
+    Solved
+    Solid
+    
 aspecthandle_space
     Stuck
     Salamander
@@ -509,7 +574,12 @@ aspecthandle_space
     Synergy
     Spaceman
 
-//aspecthandle_stars
+aspecthandle_stars
+    Stormcrow
+    Stargazing
+    Supersonic
+    Stellar
+    Supplicant
 
 aspecthandle_time
     Teetotaler
@@ -808,6 +878,7 @@ interestchat_writing
 
 interestchat_by_letter
     @interestchat_b
+    @interestchat_d
     @interestchat_g
     @interestchat_h
     @interestchat_k
@@ -836,7 +907,10 @@ interestchat_b
     brawny
     broken
     burly
-
+    
+interestchat_d
+    @classchat_dame
+    
 interestchat_g
     @classchat_grace
     @classchat_guide
@@ -1534,4 +1608,3 @@ interesthandle_v
     Violist
     Virtue
     Virtuoso
-
