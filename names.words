@@ -21,7 +21,7 @@ name_all
     @suckname_all
     @carapacename_all
     @satyrname_all
-
+    @brooms
     
 //###################################################
 // DOLL NAMES
@@ -84,7 +84,7 @@ dollname_fek
 dollname_flower
     flower
 dollname_fruit
-    set by sim
+    n/a - set by sim
 
 //#############################################################################################
 // TROLLS
@@ -282,6 +282,7 @@ wigglername_title
     Chorbishop
     Cleric
     Dean
+    DJ
     Dr.
     Druid
     Duchess
@@ -300,10 +301,12 @@ wigglername_title
     Marchioness
     Marquess
     Master
+    Miss
     Monk
     Monsignor
     Mother
     Mr.
+    Ninja
     Novice
     Page
     Pastor
@@ -322,9 +325,12 @@ wigglername_title
     Seer
     Sensei
     Sherrif
+    Sir
     Sister
+    Squire
     Supreme
     Sylph
+    The
     Thief
     TV's
     Vice
@@ -339,48 +345,84 @@ wigglername_title
 //######################################################
 
 wigglername_first
+    3-D
     Albert
+    Alfalfa
+    Al Pastor
     Arnold
     Autumn
     Baby
     Barney
+    Bartholomew
     Bibbles
+    Biscuit
+    Bitey
+    Blinx
     Bubbles
+    Bubsy
+    Butterball
     Candy
     Capybara
+    Carrot
     Casey
     Charles
+    Chauncey
+    Chester
     Chuck
+    Cocoa
+    Cotton Ball
     Crow
     Donut
     Duncan
+    Emma
     Ender
+    Falon
     Farmstink
+    Fat
+    Fatty
+    Feelix
+    Fluffers
     Fluffy
+    Foxy
     Fred
     Freddy
     George
     Gordon
     Grubby
+    Ham
+    Hammy
+    Hamtaro
     Hannibal
     Harvey
+    Heather
     Hugo
     Irving
     Isaac
+    Isabelle
+    Itty
     Ivo
+    Izzy
     Jack
     James
     Jerry
+    Jhonathan
     Jibbly
     Jiggy
     Jim
     Juice
     Juicy
     Julius
+    Karate
+    Katz
     Kid
+    Kifarella
+    Kit Kat
+    Lester
     Lil
+    Lilly
     Liv
     Luigi
+    Mango
     Meowgon
     Meowsers
     Mew
@@ -388,24 +430,42 @@ wigglername_first
     Mike
     Milton
     Misty
+    Moose
     Morgan
     Nic
     Nikalo
+    Nutmeg
     Obnoxio
     Oswald
+    Peep
+    Peepi
     Peewee
     Peter
+    Princess
+    Purrbox
+    Pusheen
+    Rapunzel
+    Reginald
+    Rudy
     Santa
     Sauce
     Scoobert
     Scooby
     Selina
+    Spartacus
     Stan
     Sterling
     Steven
     Stevie
+    Stimpy
+    Stripey
+    Sugar
+    Sugar Bubbles
+    Tato
     Teddy
     Thomas
+    Tiger
+    Tigger
     Tina
     Tom
     Tony
@@ -413,6 +473,7 @@ wigglername_first
     Wario
     Wiggler
     Wiggly
+    Yo-Yo
     Zoosmell
     Zygmunt
 
@@ -423,42 +484,61 @@ wigglername_first
 wigglername_last
     Addington
     Ainsworth
+    Applesauce
     Archer
     the Asshole
+    Bastard
     Beena
+    Bitty
     Boi
+    Burrito
     Butt
     Butter
     Buttlass
     Cage
     Cakes
+    Cheeto
     Clowder
+    Dee
     Diabetes
     Dorkbutt
     Dumbface
     Dutton
+    Eats-a-Lot
     Edington
     Face
+    Fancypants
     Faraday
+    Farquaad
+    Fish
+    Fluffybutt
     Fluffybutton
+    Fuzzlekins
     Gigabyte
     Gladestone
     Grub
     Heart
     Juice
+    Kajilly
     Katanta
     Kazoo
     Kilobyte
+    Kitty
     Legs
     Licker
     Lickface
+    Lix-a-Lot
     Lobster
     Logan
     Love
     Malone
     McEnderton
+    McFishyface
+    McFluff-n-Stuff
     McProblems
     Megabyte
+    Muffin
+    Ninja
     Noir
     Oldington the Third
     Oppenheimer
@@ -469,8 +549,11 @@ wigglername_last
     Pooper
     Pooplord
     Poppenfresh
+    the Potato
+    Pounce-a-Lot
     Puffers
     Puker
+    Puppers
     Ribs
     Rock
     Rockerfeller
@@ -482,17 +565,22 @@ wigglername_last
     Savage
     Sebastion
     Sniffles
+    Snowball
     Snugglepuff
     Spangler
+    Spreadsheets
     Squeezykins
     Stubblies
+    Tango
     Taylor
     Terabyte
     Valentine
     von Horn
+    von Poops-a-Lot
     von Salamancer
     von Wigglebottom
     von Wigglesmith
+    Wario
     Wigglesona
 
 //######################################################
@@ -503,7 +591,6 @@ wigglername_end
      III
      IV
      IX
-     the Shippest
      V
      VI
      VII
@@ -511,13 +598,20 @@ wigglername_end
      X
     , CPA
     , esq
+    , Jr.
     , Junior
     , MD
     , Ph.D.
     , Senior
     , the Third
+     the Asshole
+     the Great
+     the Shippest
+     the Wonderful
     -chan
+    -face
     -Mew
+     of Fishlandia
     
 
 //#############################################################################################
@@ -1087,14 +1181,13 @@ ancestortitle_epithet
     Crooked
     Crow
     Cruel
-    Cub
-    Cuddle
+    Cuddler
     Cuddly
     Cuddly Bear
     Cunning
     Currier
     Cursed
-    Cute
+    Cutest
     Dagger
     Damaged
     Damned
