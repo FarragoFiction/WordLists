@@ -439,21 +439,20 @@ aspecthandle_dream
     Disorder
 
 aspecthandle_fate
-    Fated
+    Fate
     Follower
     Faithful
-    Fortuitous
+    Fortune
     Favored
-    Felicitous
+    Felicity
     
 aspecthandle_flow
     Fire
-    Flowing
+    Flow
     Flame
-    Flaming
-    Flourishing
-    Floating
-    Fanciful
+    Flourish
+    Famous
+    Fly
     
 aspecthandle_heart
     Heart
@@ -472,14 +471,13 @@ aspecthandle_hope
     Hooligan
 
 aspecthandle_law
-    Legal
-    Lawful
-    Lawless
-    Lionized
+    Legalese
+    Lawyer
+    Lion
     Latin
     Leader
     Lock
-    Locked
+    Legislacerator
 
 aspecthandle_life
     Leader
@@ -497,11 +495,11 @@ aspecthandle_light
     Lifeguard
 
 aspecthandle_might
-    Mighty
+    Might
     Master
     Martial
     Marine
-    Manic
+    Magnate
     Maniac
 
 aspecthandle_mind
@@ -516,10 +514,10 @@ aspecthandle_mind
 aspecthandle_mist
     Multiple
     Mist
-    Masterless
-    Makeshift
-    Markovian
-    Murky
+    Metaphor
+    Myth
+    Maverick
+    Murk
     
 aspecthandle_rage
     Raconteur
@@ -531,38 +529,38 @@ aspecthandle_rage
 aspecthandle_rain
     Rainbow
     Random
-    Rattled
-    Radiation
+    Rattle
+    Rabble
     Relatable
     
 aspecthandle_rhyme
-    Rakish
+    Rake
     Rime
-    Rarified
+    Rambler
     Relaxed
     Radical
 
 aspecthandle_sand
-    Salty
-    Sarcastic
-    Sly
+    Salt
+    Sarcasm
+    Scammer
     Shredder
-    Shifty
-    Stealthy
+    Scallywag
+    Stealth
     
 aspecthandle_sky
     Snubbed
-    Sorrowful
-    Squandered
+    Sorrow
+    Scorn
     Stoic
-    Suffocating
+    Semblance
     
 aspecthandle_snow
     Shimmer
-    Silent
-    Still
+    Silence
+    Stillness
     Slow
-    Solved
+    Solution
     Solid
     
 aspecthandle_space
@@ -576,10 +574,11 @@ aspecthandle_space
 
 aspecthandle_stars
     Stormcrow
-    Stargazing
+    Stargazer
     Supersonic
     Stellar
     Supplicant
+    Synergy
 
 aspecthandle_time
     Teetotaler
