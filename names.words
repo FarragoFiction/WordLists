@@ -905,67 +905,9 @@ robotname_sim
 //#############################################################################################
 
 ancestortitle_all
-    @ancestortitle_canon
-    @ancestortitle_specific
-    The #ancestortitle_epithet#
-    The #ancestortitle_epithet#
-    The #ancestortitle_epithet#
-    The #ancestortitle_epithet#
-    The #ancestortitle_epithet#
-    The #ancestortitle_epithet#
-    The #ancestortitle_epithet#
-    The #ancestortitle_epithet#
-    The #ancestortitle_epithet#
-    The #ancestortitle_epithet#
-    The #ancestortitle_epithet#
-    The #ancestortitle_epithet#
-    The #ancestortitle_epithet#
-    The #ancestortitle_epithet#
-    The #ancestortitle_epithet#
-    The #ancestortitle_epithet#
-    The #ancestortitle_epithet#
-    The #ancestortitle_epithet#
-    The #ancestortitle_epithet#
-    The #ancestortitle_epithet#
-    The #ancestortitle_epithet#
-    The #ancestortitle_epithet#
-    The #ancestortitle_epithet#
-    The #ancestortitle_epithet#
-    The #ancestortitle_epithet#
-    The #ancestortitle_epithet#
-    The #ancestortitle_epithet#
-    The #ancestortitle_epithet#
-    The #ancestortitle_epithet#
-    The #ancestortitle_epithet#
-    The #ancestortitle_epithet#
-    The #ancestortitle_epithet#
-    The #ancestortitle_epithet#
-    The #ancestortitle_epithet#
-    The #ancestortitle_epithet#
-    The #ancestortitle_epithet#
-    The #ancestortitle_epithet#
-    The #ancestortitle_epithet#
-    The #ancestortitle_epithet#
-    The #ancestortitle_epithet#
-    The #ancestortitle_epithet#
-    The #ancestortitle_epithet#
-    The #ancestortitle_epithet#
-    The #ancestortitle_epithet#
-    The #ancestortitle_epithet#
-    The #ancestortitle_epithet#
-    The #ancestortitle_epithet#
-    The #ancestortitle_epithet#
-    #ancestortitle_epithet# #ancestortitle_nickname#
-    #ancestortitle_epithet# #ancestortitle_nickname#
-    #ancestortitle_epithet# #ancestortitle_nickname#
-    #ancestortitle_epithet# #ancestortitle_nickname#
-    #ancestortitle_epithet# #ancestortitle_nickname#
-    #ancestortitle_epithet# #ancestortitle_nickname#
-    #ancestortitle_epithet# #ancestortitle_nickname#
-    #ancestortitle_epithet# #ancestortitle_nickname#
-    #ancestortitle_epithet# #ancestortitle_nickname#
-    #ancestortitle_epithet# #ancestortitle_nickname#
-    #ancestortitle_epithet# #ancestortitle_nickname#
+    #ancestortitle_canon#: 0.5
+    #ancestortitle_specific#: 0.25
+    The #ancestortitle_epithet#: 2.0
     #ancestortitle_epithet# #ancestortitle_nickname#
 
 //######################################################
@@ -1410,7 +1352,7 @@ ancestortitle_epithet
     Jester
     Jigsaw
     Joiner
-    Joke
+    Joker
     Jolly
     Judge
     Just
