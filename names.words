@@ -51,6 +51,8 @@ dollname_dad
     #kidname_male# #kidname_last#
 dollname_mom
     #kidname_female# #kidname_last#
+dollname_magical_doll
+    #kidname_female# #kidname_last#
 dollname_bro
     #kidname_male# #kidname_last#
 dollname_hiveswap
