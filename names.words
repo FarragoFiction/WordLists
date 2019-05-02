@@ -87,6 +87,8 @@ dollname_ancestor
     @ancestortitle_all
 dollname_openbound
     @trollname_all
+dollname_monsterdoll
+    @horrorterrorname_all
 dollname_fek
     fek
 dollname_flower
